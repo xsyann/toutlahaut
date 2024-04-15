@@ -63,7 +63,7 @@ const applyLayout = async () => {
   const fjGallery = (await import("flickr-justified-gallery")).default;
   fjGallery(document.querySelectorAll(".gallery"), {
     itemSelector: ".gallery__item",
-    rowHeight: 420,
+    rowHeight: 320,
     lastRow: "start",
     gutter: 2,
     rowHeightTolerance: 0.1,
