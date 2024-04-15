@@ -1,9 +1,13 @@
-@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lightgallery.css');
-@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lg-zoom.css');
-@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lg-video.css');
+@import url("https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lightgallery.css");
+@import url("https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lg-zoom.css");
+@import url("https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lg-video.css");
 
-* {
-  box-sizing: border-box;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  line-height: 1.15;
 }
 
 .gallery {
