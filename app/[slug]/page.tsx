@@ -30,7 +30,7 @@ const Footer = (): JSX.Element => (
     <div className="flex gap-4">
       <Link href="http://www.facebook.com/toutlahaut.net/" target="_blank">
         <Image
-          src="https://toutlahaut.net/img/facebook.png"
+          src="https://files.toutlahaut.net/img/facebook.png"
           alt="Facebook"
           width={40}
           height={40}
@@ -39,7 +39,7 @@ const Footer = (): JSX.Element => (
       </Link>
       <Link href="http://www.instagram.com/stephanekoeth/" target="_blank">
         <Image
-          src="https://toutlahaut.net/img/instagram.png"
+          src="https://files.toutlahaut.net/img/instagram.png"
           alt="Instagram"
           width={40}
           height={40}

@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        landing: "url('https://toutlahaut.net/img/bg.jpg')",
+        landing: "url('https://files.toutlahaut.net/img/bg.jpg')",
       },
       fontFamily: {
         sans: ["var(--font-franklin)", "sans-serif"],

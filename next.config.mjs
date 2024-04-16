@@ -4,7 +4,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "toutlahaut.net",
+        hostname: "files.toutlahaut.net",
         port: "",
         pathname: "/img/**",
       },
