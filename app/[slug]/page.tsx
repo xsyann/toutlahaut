@@ -103,10 +103,19 @@ const Page = ({ params }: { params: { slug: string } }): JSX.Element => {
             <a
               key={i}
               className="gallery__item"
-              data-src={photo.url}
-              data-sub-html={`<h4>Photo by Stéphane Koëth</h4><p>${photo.description}</p>`}
+              data-src={`https://files.toutlahaut.net/files_img/${slugify(
+                serie.name,
+                "_"
+              )}/highRes/${photo.name}`}
+              data-sub-html={`<h4>© Stéphane Koëth</h4>`}
             >
-              <img className="img-responsive" src={photo.url} />
+              <img
+                className="img-responsive"
+                src={`https://files.toutlahaut.net/files_img/${slugify(
+                  serie.name,
+                  "_"
+                )}/lowRes/${photo.name}`}
+              />
             </a>
           ))}
         </LightGallery>
