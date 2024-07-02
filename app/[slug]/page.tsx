@@ -90,6 +90,7 @@ const Page = ({ params }: { params: { slug: string } }): JSX.Element => {
           pager={false}
           thumbnail={true}
           galleryId={"nature"}
+          download={false}
           autoplayFirstVideo={false}
           elementClassNames={"gallery"}
           mobileSettings={{
